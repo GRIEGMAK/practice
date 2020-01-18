@@ -1,0 +1,146 @@
+#include"stdio.h"
+#include"conio.h"
+#include"math.h"
+
+void main()
+{
+	float x, f, y;
+	printf("Vvedite x\n");
+	scanf_s("%f", &x);
+	printf("Vvedite y\n");
+	scanf_s("%f", &y);
+	f = 0.8*((sin((x - y) / 2) + cos((x - y) / 2)) / (sin(x)*sin(x) + exp(x)) + sqrt(x + 2));
+	printf("f = %f", f);
+	_getch();
+}
+
+
+
+
+#include"stdio.h"
+#include"conio.h"
+#include"math.h"
+
+void main()
+{
+	float x, y, a, b, c, d, f;
+	printf("Vvedite x\n");
+	scanf_s("%f", &x);
+	printf("Vvedite y\n");
+	scanf_s("%f", &y);
+	printf("Vvedite a\n");
+	scanf_s("%f", &a);	
+	printf("Vvedite b\n");
+	scanf_s("%f", &b);	
+	printf("Vvedite c\n");
+	scanf_s("%f", &c);	
+	printf("Vvedite d\n");
+	scanf_s("%f", &d);
+	f = sqrt((a + b*c + 3 * d) / (2 + x*y))*sin(y);
+	printf("f = %f", f);
+	_getch();
+}
+
+
+
+
+
+
+
+4
+#include"stdio.h"
+#include"conio.h"
+#include"math.h"
+
+int main()
+{
+	float x, f, y;
+	printf("Vvedite x\n");
+	scanf("%f", &x);
+	printf("Vvedite y\n");
+	scanf("%f", &y);
+	f = 0.8*((sin((x - y) / 2) + cos((x - y) / 2)) / (sin(x)*sin(x) + exp(x)) + sqrt(x + 2));
+	printf("f = %f", f);
+	getch();
+}
+
+
+
+
+
+
+10
+#include"stdio.h"
+#include"conio.h"
+#include"math.h"
+
+int main()
+{
+	float x, y, a, b, c, d, f;
+	printf("Vvedite x\n");
+	scanf("%f", &x);
+	printf("Vvedite y\n");
+	scanf("%f", &y);
+	printf("Vvedite a\n");
+	scanf("%f", &a);
+	printf("Vvedite b\n");
+	scanf("%f", &b);
+	printf("Vvedite c\n");
+	scanf("%f", &c);
+	printf("Vvedite d\n");
+	scanf("%f", &d);
+	f = sqrt((a + b*c + 3 * d) / (2 + x*y))*sin(y);
+	printf("f = %f", f);
+	getch();
+}
+
+
+
+
+
+
+24
+#include"stdio.h"
+#include"conio.h"
+#include"math.h"
+
+int main()
+{
+	float x, y, z, f;
+	printf("Vvedite x\n");
+	scanf("%f", &x);
+	printf("Vvedite y\n");
+	scanf("%f", &y);
+	printf("Vvedite z\n");
+	scanf("%f", &z);
+	f = ((sin(x*x)+cos(y*y))/(2+x*y))*cos((x+y+z)/2);
+	printf("f = %f", f);
+	getch();
+}
+
+
+
+
+18
+#include"stdio.h"
+#include"conio.h"
+#include"math.h"
+
+int main()
+{
+	float x, y, c, d, f;
+	printf("Vvedite x\n");
+	scanf("%f", &x);
+	printf("Vvedite y\n");
+	scanf("%f", &y);
+	printf("Vvedite c\n");
+	scanf("%f", &c);
+	printf("Vvedite d\n");
+	scanf("%f", &d);
+	f = 5*log(x)+7*sin((x+y)/8)*cos((x+y)/8)+c/(d+3*exp());
+	printf("f = %f", f);
+	getch();
+}
+
+
+
